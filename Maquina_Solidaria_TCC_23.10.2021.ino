@@ -583,32 +583,32 @@ int       le_analog = analogRead(A0);                           /*Variável que 
       if(item_escolhido == item_1)                              /*Se o item_escolhido for o item 1*/
       {
         servo_1.write(50);                                      /*Liga Servo 1*/
-        delay(delay_Servo );                                            /*Delay*/
+        delay(delay_Servo );                                    /*Delay*/
         servo_1.write(90);                                      /*Desliga Servo 1*/
-        delay(delay_Servo );                                            /*Delay*/
+        delay(delay_Servo );                                    /*Delay*/
       }/*end if*/ 
 
           if(item_escolhido == item_2)                          /*Se o item_escolhido for o item 2*/
           {
             servo_2.write(50);                                  /*Liga Servo 2*/
-            delay(delay_Servo );                                        /*Delay*/
+            delay(delay_Servo );                                /*Delay*/
             servo_2.write(90);                                  /*Desliga Servo 2*/
-            delay(delay_Servo );                                        /*Delay*/
+            delay(delay_Servo );                                /*Delay*/
           }/*end if*/
 
               if(item_escolhido == item_3)                      /*Se o item_escolhido for o item 3*/
               {
                 servo_3.write(50);                              /*Liga Servo 3*/
-                delay(delay_Servo );                                    /*Delay*/
+                delay(delay_Servo );                            /*Delay*/
                 servo_3.write(90);                              /*Desliga Servo 3*/
-                delay(delay_Servo );                                    /*Delay*/
+                delay(delay_Servo );                            /*Delay*/
               }/*end if*/
                   if(item_escolhido == item_4)
                   {
                     servo_4.write(50);                          /*Liga Servo 4*/
-                    delay(delay_Servo );                                /*Delay*/
+                    delay(delay_Servo );                        /*Delay*/
                     servo_4.write(90);                          /*Desliga Servo 4*/
-                    delay(delay_Servo );                                /*Delay*/
+                    delay(delay_Servo );                        /*Delay*/
                   }/*end if*/      
     }/*end liga_servo*/
 
